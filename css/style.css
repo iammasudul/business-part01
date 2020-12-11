@@ -1,0 +1,210 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Baloo 2', cursive; */
+*{
+  margin: 0;
+  padding: 0;
+}
+.top-header{
+  background: #f0f2f4;
+}
+.top-header ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0;
+  align-items: center;
+}
+.top-header ul li{
+  margin-left: 30px;
+  color: #424242;
+}
+.top-header ul li i{
+  margin-right: 5px;
+}
+.top-header ul li:last-child{
+  margin-left: 10px !important;
+  color: #1287bf;
+  font-size: 20px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #424242;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+  font-family: 'Baloo 2', cursive;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #de2b24;
+} 
+.btn-consultation{
+  background-color: #de2b24;
+  color: #fff !important;
+  padding: 5px 0px;
+  font-size: 16px !important;
+}
+.btn-consultation:hover{
+  background: #f8cd53;
+  text-decoration: none;
+}
+
+
+.banner{
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.banner h1{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 500;
+  font-family: 'Baloo 2', cursive;
+}
+.banner h4{
+  color: #fff; 
+  font-weight: 300;
+  font-size: 26px;
+  margin-top: 0px;
+  font-family: 'Baloo 2', cursive;
+}
+.banner button{
+  border: none;
+  color: #fff;
+  background: #f8cd53;
+  font-size: 26px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 35px;
+  font-family: 'Baloo 2', cursive;
+}
+.banner button:hover{
+  background: #de2b24;
+  text-decoration: none;
+}
+.banner .row{
+  min-height: 80vh;
+  align-items: center;
+}
+
+
+
+.about-us{
+
+}
+.heading{
+
+}
+.heading h1{
+  color: #424242;  
+  font-family: 'Baloo 2', cursive;
+}
+.heading h5{
+  color: #424242;  
+  font-family: 'Baloo 2', cursive;
+}
+.heading span{
+  height: 5px;
+  width: 0px;
+  display: block;
+  margin: auto;
+  background: #424242;
+  transition: .6s all ease-in-out;
+}
+.heading:hover span{
+  width: 50px;
+}
+.about-us h3{
+padding-top: 15px;
+color: #424242;
+font-family: 'Baloo 2', cursive;
+}
+.about-us p{
+color: #5b5b5b;
+margin-top: 10px;
+}
+
+
+
+.approach{
+  background: #f3f3f3;
+}
+.approach h1{
+  font-weight: 500;
+  font-family: 'Baloo 2', cursive;
+}
+.approach h5{
+  font-weight: 500;
+  font-family: 'Baloo 2', cursive;
+}
+.approach-content{
+  background: #fff;
+}
+.approach-content h4{
+  text-transform: capitalize;
+  color: #424242;
+  padding-left: 60px;
+  font-family: 'Baloo 2', cursive;
+}
+.approach-content p{
+  margin: 0px; 
+  color: #424242;
+  padding-left: 60px;
+}
+.step{
+  background: #de2b24;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  right:-45px;
+  transform:translateY(-50%) ;
+}
+.step h1{
+  margin: 0; 
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 8px;
+  font-family: 'Baloo 2', cursive;
+}
+.step h6{
+  margin: 0;
+  text-transform:capitalize;
+  font-weight: 400;
+  font-family: 'Baloo 2', cursive;
+}
+.position{
+  position: relative;
+}
+.position1{
+  position: relative;
+}
+.position1 .step{
+  background: #de2b24;
+  width:100px;
+  height:100px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left:-45px;
+  transform:translateY(-50%) ;   
+}
+.approach-content-left{
+
+}
+.approach-content-left h4{
+  padding: 0 60px;
+}
+.approach-content-left p{
+  padding: 0 60px;
+}
